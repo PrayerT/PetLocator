@@ -8,6 +8,8 @@ Even fortunately we found it in one hour, but I can never forget the feeling whe
 ## Communications
 Thanks to any buddy who read my code. Because it's my first project which only cost my half of year, there may be some bugs in it. 
 Anyone who find any bug commit issues or contact me by QQ 1603233411, much thanks.
+## Attentions
+This project has been applied for software copyright. If you want it for commercial usage, please contact me first.
 
 Writen by Tang Zhiyuan (Prayer) 
 
