@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/catbkg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/linearbgd"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="Welcome"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="如果您的宠物已经丢失并需要定位找回\n可以按下面按键寻回"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/goLoc"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="寻找宠物"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="如果您希望在宠物离您太远时给您警示\n可以按下面按键设置"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/goFence"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="电子围栏"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/showinfo"
+            android:background="@drawable/button_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

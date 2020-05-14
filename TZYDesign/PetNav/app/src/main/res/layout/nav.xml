@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/catbkg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/linearbgd"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/longTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目标经度："
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/lonT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目标纬度："
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/latT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/longTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自身经度："
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/lonS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自身纬度："
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/latS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/move"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:enabled="false"
+                android:text="带我去" />
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:text="刷新位置" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PetNavigation</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="start_title">示例代码</string>
+	<string name="base_function">基本功能</string>
+	<string name="hud_title">HUD显示</string>
+	<string name="extend_title">扩展功能</string>
+	<string name="extend_navi_navi">自定义导航</string>
+	<string name="no_result">对不起，没有搜索到相关数据！</string>
+
+
+	<string name="navibar_title">路径规划</string>
+	<string name="navi_car">驾车</string>
+	<string name="navi_foot">步行</string>
+	<string name="start_hud_navi">HUD显示</string>
+	<string name="complex_function">综合展示</string>
+
+
+	<string name="navi_empty_car">"驾   车"</string>
+	<string name="navi_empty_foot">"步   行"</string>
+	<string name="navi_start">"起    点"</string>
+	<string name="navi_middle">途经点</string>
+	<string name="navi_end">"终    点"</string>
+	<string name="navi_strategy">"策    略"</string>
+	<string name="navi_route">路径规划</string>
+	<string name="navi_navi">模拟导航</string>
+	<string name="start_navi_navi">实时导航</string>
+	<string name="navi_strategy_speed">速度最快</string>
+	<string name="navi_strategy_cost">避免收费</string>
+	<string name="navi_strategy_distance">距离最短</string>
+	<string name="navi_strategy_nohighway">不走高速快速路</string>
+	<string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+	<string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+
+	<string name="theme_blue">经典蓝</string>
+	<string name="theme_pink">可爱粉</string>
+	<string name="theme_white">简约白</string>
+	<string name="day">白天</string>
+	<string name="night">夜间</string>
+	<string name="yes">"  是  "</string>
+	<string name="no">"  否  "</string>
+	<string name="open">打开</string>
+	<string name="close">关闭</string>
+	<string name="daynightmode">"昼夜模式    "</string>
+	<string name="deviationrecalculation">"偏航重算    "</string>
+	<string name="jamrecalculation">"拥堵重算    "</string>
+	<string name="trafficbroadcast">"交通播报    "</string>
+	<string name="camerabroadcast">摄像头播报</string>
+	<string name="screenon">"屏幕常亮    "</string>
+	<string name="routeshow">线路展示</string>
+	<string name="tapmap">点击地图设置</string>
+	<string name="starttapmap">我的位置（可点击地图设置）</string>
+	<string name="walkdescription">步行状态不可用</string>
+	<string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+	<string name="routeinfo_1">全程 </string>
+	<string name="routeinfo_2">公里/</string>
+	<string name="routeinfo_3">"分钟    收费"</string>
+	<string name="routeinfo_4">元</string>
+	<string name="routeinfo_default">--</string>
+	<string name="app_id">输入您讯飞的appid</string>
+	<string name="mypoistion">我的位置</string>
+	<string name="mappoistion">地图点选</string>
+	<string name="positioninfo">位置信息</string>
+
+	<string-array name="preference_values_tts_role">z
+		<item>xiaoyan</item>
+		<item>xiaoyu</item>
+		<item>vixy</item>
+		<item>vixq</item>
+		<item>vixf</item>
+		<item>vixm</item>
+		<item>vixl</item>
+		<item>vixr</item>
+		<item>vixyun</item>
+		<item>vixk</item>
+		<item>vixqa</item>
+		<item>vixying</item>
+		<item>vixx</item>
+		<item>vinn</item>
+		<item>vils</item>
+	</string-array>
+
+	<string name="preference_default_tts_role">xiaoyan</string>
+	<string name="preference_key_tts_speed">tts_speed</string>
+	<string name="preference_title_tts_speed">语速</string>
+	<string name="preference_default_tts_speed">50</string>
+	<string name="preference_dialog_title_tts_speed">选择语速</string>
+	<string name="preference_key_tts_volume">tts_volume</string>
+	<string name="preference_title_tts_volume">音量</string>
+	<string name="preference_default_tts_volume">50</string>
+	<string name="preference_dialog_title_tts_volume">选择音量</string>
+	<string name="preference_key_tts_pitch">tts_pitch</string>
+	<string name="preference_title_tts_pitch">语调</string>
+	<string name="preference_default_tts_pitch">50</string>
+	<string name="intell_bd_title">智能播报</string>
+
+	<string name="poi_input_type_start">从</string>
+	<string name="poi_input_type_dest">到</string>
+	<string name="poi_input_type_mid">经</string>
+
+	<string name="navi_guide_from">出发</string>
+	<string name="navi_guide_end">到达终点</string>
+
+	<string name="drawer_open">开</string>
+	<string name="drawer_close">关</string>
+
+	<!-- 首页索引 -->
+	<string name="navi_ui">导航组件<font color='red'>(新)</font></string>
+	<string name="blank"></string>
+
+	<string name="navi_start_end_poi_calculate_title">起终点算路</string>
+	<string name="navi_start_end_poi_calculate_desc">包含起点和终点的组件算路</string>
+	<string name="navi_end_poi_calculate_title">无起点算路</string>
+	<string name="navi_end_poi_calculate_desc">无起点有终点的组件算路</string>
+	<string name="navi_bywayof_poi_calculate_title">途经点算路</string>
+	<string name="navi_bywayof_poi_calculate_desc">有途经点的组件算路</string>
+	<string name="navi_ui_navi_title">组件直接导航</string>
+	<string name="navi_ui_navi_desc">组件直接导航</string>
+	<string name="navi_ui_component_theme_title">起始点算路（白色主题）</string>
+	<string name="navi_ui_custom_activity">自定义Activity的导航组件</string>
+	<string name="navi_ui_component_theme_desc">起始点算路（白色主题）</string>
+
+	<string name="navi_route_line">路径规划</string>
+	<string name="navi_route_driver_title">驾车路径规划</string>
+	<string name="navi_route_driver_desc">驾车路径规划</string>
+	<string name="navi_route_walk_title">步行路径规划</string>
+	<string name="navi_route_walk_desc">步行路径规划</string>
+	<string name="navi_route_ride_title">骑行路径规划</string>
+	<string name="navi_route_ride_desc">骑行路径规划</string>
+	<string name="navi_route_trunk_title">货车导航路径规划</string>
+	<string name="navi_route_trunk_desc">货车导航路径规划</string>
+
+	<string name="navi_type">多类型导航</string>
+	<string name="navi_type_gps_title">实时导航</string>
+	<string name="navi_type_gps_desc">实时导航</string>
+	<string name="navi_type_inner_voice">内置语音导航</string>
+	<string name="navi_type_trunk">货车导航</string>
+
+	<string name="navi_type_emu_title">模拟导航</string>
+	<string name="navi_type_emu_desc">模拟导航</string>
+	<string name="navi_type_intelligent_title">智能巡航</string>
+	<string name="navi_type_intelligent_desc">智能巡航</string>
+	<string name="navi_type_hud_title">HUD导航</string>
+	<string name="navi_type_hud_desc">HUD导航</string>
+
+	<string name="navi_ui_custom">导航UI自定义</string>
+	<string name="navi_ui_custom_car_icon">自定义车标</string>
+	<string name="navi_ui_custom_route">自定义路线UI</string>
+	<string name="navi_ui_custom_route_style">自定义路线纹理</string>
+	<string name="navi_ui_custom_trun_across_tip">自定义路口转向提示</string>
+	<string name="navi_ui_custom_northmode">正北模式</string>
+	<string name="navi_ui_custom_wholescan_button">自定义全览模式</string>
+	<string name="navi_ui_custom_compass">自定义指南针</string>
+	<string name="navi_ui_custom_traffic_button">自定义路况按钮</string>
+	<string name="navi_ui_custom_zoom_button">自定义放大缩小按钮</string>
+	<string name="navi_ui_custom_across_overlay">自定义路口放大图</string>
+	<string name="navi_ui_custom_traffic_bar">自定义导航光柱</string>
+	<string name="navi_ui_custom_traffic_bar_new">自定义导航光柱(new)</string>
+	<string name="navi_ui_custom_route_select">自定义道路选择</string>
+
+
+	<string name="navi_custom_all">导航完全自定义示例</string>
+	<string name="navi_custom_car_route">自车改变位置和绘制路线示例</string>
+	<string name="navi_custom_road_distance_nexttip">路名、剩余距离、转向图标示例</string>
+	<string name="navi_custom_traffic_bar">绘制导航路况条示例</string>
+	<string name="navi_custom_route_way">自定义车道信息示例</string>
+	<string name="navi_custom_crossing">路口放大图示例</string>
+	<string name="navi_custom_camera">摄像头违章摄影示例</string>
+	<string name="navi_custom_navi">各组件整合导航示例</string>
+
+	<string name="navi_expand">导航扩展</string>
+	<string name="navi_expand_set_gps_data">传入GPS数据导航</string>
+	<string name="navi_expand_route_detail">展示导航路径详情</string>
+	<string name="navi_expand_switch_road">主辅路切换</string>
+	<string name="navi_expand_iflyt_voice">科大讯飞语音集成</string>
+    <string name="title_main">PetNavigation</string>
+
+	<string name="title_location">获取定位数据</string>
+    <string name="location">获取定位数据</string>
+	<string name="location_dec">调用定位接口获取定位数据</string>
+	<string name="findtarget">去找我的宠物</string>
+
+	<string name="title_geoFence">地理围栏</string>
+    <string name="geoFence">地理围栏</string>
+    <string name="geoFence_dec">展示地理围栏功能</string>
+
+	<string name="roundGeoFence">圆形地理围栏</string>
+    <string name="roundGeoFence_dec">展示圆形地理围栏</string>
+
+	<string name="polygonGeoFence">多边形地理围栏</string>
+    <string name="polygonGeoFence_dec">展示多边形地理围栏</string>
+
+	<string name="keywordGeoFence">关键字地理围栏</string>
+    <string name="keywordGeoFence_dec">展示关键字地理围栏</string>
+
+	<string name="nearbyGeoFence">周边地理围栏</string>
+    <string name="nearbyGeoFence_dec">展示周边地理围栏</string>
+
+	<string name="districtGeoFence">行政区划地理围栏</string>
+    <string name="districtGeoFence_dec">展示行政区划地理围栏</string>
+
+	<string name="multipleGeoFence">综合展示</string>
+    <string name="multipleGeoFence_dec">综合展示地理围栏的功能</string>
+
+
+	<string name="oldGeoFence">旧版地理围栏</string>
+    <string name="oldGeoFence_dec">旧版地理围栏，不建议使用</string>
+
+
+	<string name="title_assistantLocation">H5辅助定位</string>
+    <string name="assistantLocation">H5辅助定位</string>
+    <string name="assistantLocation_dec">展示H5辅助定位功能</string>
+
+	<string name="title_tools">地图计算工具</string>
+    <string name="tools">地图计算工具</string>
+    <string name="tools_dec">坐标转换等功能演示</string>
+
+	<string name="title_lastLocation">获取最后一次位置</string>
+    <string name="lastLocation">获取最后一次位置</string>
+	<string name="lastLocation_dec">获取最后一次定位的位置，此位置是一个历史位置</string>
+
+
+	<string name="title_alarmCPU">定时唤起CPU</string>
+    <string name="alarmCPU">定时唤起cpu</string>
+	<string name="alarmCPU_dec">通过一个闹钟程序后台定时唤起cpu</string>
+
+	<string name="title_errorCode">错误码说明</string>
+	<string name="errorCode">错误码说明</string>
+	<string name="errorCode_dec">错误码说明以及对应的解决方法</string>
+
+	<string name="defaultInteval">2000</string>
+	<string name="defaultHttpTimeout">30000</string>
+
+	<string name="battery_saving">低功耗模式</string>
+    <string name="device_sensors">仅设备模式</string>
+    <string name="hight_accuracy">高精度模式</string>
+    <string name="interval">定位周期(ms)</string>
+	<string name="httpTimeout">网络超时(ms)</string>
+	<string name="location_once">单次定位</string>
+	<string name="needAddress">逆地理编码</string>
+	<string name="cacheAble">开启缓存</string>
+	<string name="onceLastest">提高首次定位精度</string>
+	<string name="gpsFirst">GPS优先</string>
+    <string name="useSensor">使用传感器</string>
+    <string name="wifiScan">开启wifi扫描</string>
+
+	<string name="geoLanguage">逆地理语言</string>
+
+
+	<string name="alarmInterval">唤醒周期(s)</string>
+
+	<string name="startLocation">开始定位自己</string>
+	<string name="stopLocation">停止定位</string>
+
+	<string name="fenceRadius">围栏半径</string>
+	<string name="meter">米</string>
+	<string name="activatesAction">触发条件</string>
+	<string name="alertIn">进入</string>
+	<string name="alertOut">离开</string>
+	<string name="alertStated">停留</string>
+	<string name="addFence">添加围栏</string>
+	<string name="removeFence">移除围栏</string>
+
+	<string name="hideOption">隐藏设置</string>
+	<string name="showOption">显示设置</string>
+
+	<string name="showList">显示列表</string>
+	<string name="hideList">隐藏列表</string>
+
+	<string name="fence_round">圆形围栏</string>
+	<string name="fence_polygon">多边形</string>
+	<string name="fence_keyword">关键字围栏</string>
+	<string name="fence_nearby">周边围栏</string>
+	<string name="fence_district">行政区划围栏</string>
+
+	<string name="getLastLocation">获取最后位置</string>
+
+	<string name="startAssistantLocation">启动H5辅助定位</string>
+	<string name="stopAssistantLocation">停止H5辅助定位</string>
+	<string name="urlLocation">浏览器定位</string>
+	<string name="assistantLocationInfo">辅助定位已经启动，请点击模拟浏览器请求或者在浏览器中输入http://127.0.0.1:43689/进行测试</string>
+
+	<string name="coordinateConvert">坐标转换</string>
+	<string name="checkIsChina">位置区域判断</string>
+
+	<string name="notifyTitle">提示</string>
+	<string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+	<string name="setting">设置</string>
+	<string name="cancel">取消</string>
+
+	<string name="start">开始</string>
+	<string name="stop">停止</string>
+	<string name="locationPurpose">场景定位</string>
+	<string name="locationPurpose_dec">展示根据场景进行定位，设置场景后SDK内部会帮助设置相关属性</string>
+
+	<string name="signIn">签到</string>
+	<string name="signInPurpose">签到场景</string>
+	<string name="signInPurpose_dec">只进行一次定位返回最接近真实位置的定位结果（定位速度可能会延迟1-3s)</string>
+
+	<string name="transportPurpose">出行场景</string>
+	<string name="transportPurpose_dec">高精度连续定位，适用于有户内外切换的场景，GPS和网络定位相互切换，GPS定位成功之后网络定位不再返回，GPS断开之后一段时间才会返回网络结果</string>
+
+	<string name="sportPurpose">运动场景</string>
+	<string name="sportPurpose_dec">高精度连续定位，适用于有户内外切换的场景，GPS和网络定位相互切换，GPS定位成功之后网络定位不再返回，GPS断开之后一段时间才会返回网络结果</string>
+
+
+	<string name="title_locationBackground">后台定位示例</string>
+	<string name="locationBackground">后台定位</string>
+	<string name="locationBackground_dec">Android 8.0后台定位示例</string>
+
+	<string name="enableBackgroundLocation">开启后台定位</string>
+	<string name="disableBackgroundLocation">关闭后台定位</string>
+
+	<string name="errorCodeInfo">
+	    0	定位成功。	可以在定位回调里判断定位返回成功后再进行业务逻辑运算\n
+	    1	一些重要参数为空，如context；	请对定位传递的参数进行非空判断\n
+	    2	定位失败，由于仅扫描到单个wifi，且没有基站信息。	请重新尝试\n
+	    3	获取到的请求参数为空，可能获取过程中出现异常。	请对所连接网络进行全面检查，请求可能被篡改\n
+	    4	请求服务器过程中的异常，多为网络情况差，链路不通导致	请检查设备网络是否通畅\n
+	    5	返回的XML格式错误，解析失败。	请稍后再试\n
+	    6	定位服务返回定位失败。	请将errorDetail（通过getLocationDetail()方法获取）信息通过工单系统反馈给我们\n
+	    7	KEY鉴权失败。	请仔细检查key绑定的sha1值与apk签名sha1值是否对应，或通过高频问题查找相关解决办法\n
+	    8	Android exception常规错误	请将errordetail（通过getLocationDetail()方法获取）信息通过工单系统反馈给我们\n
+	    9	定位初始化时出现异常。	请重新启动定位\n
+	    10	定位客户端启动失败。	请检查AndroidManifest.xml文件是否配置了APSService定位服务\n
+	    11	定位时的基站信息错误。	请检查是否安装SIM卡，设备很有可能连入了伪基站网络\n
+	    12	缺少定位权限。	请在设备的设置中开启app的定位权限\n
+	    13	定位失败，由于设备未开启WIFI模块或未插入SIM卡，且GPS当前不可用。 建议开启设备的WIFI模块，并将设备中插入一张可以正常工作的SIM卡，或者检查GPS是否开启；如果以上都内容都确认无误，请您检查App是否被授予定位权限\n
+	    14  GPS 定位失败，由于设备当前 GPS 状态差。 建议持设备到相对开阔的露天场所再次尝试\n
+	    15	定位结果被模拟导致定位失败。 如果您希望位置被模拟，请通过setMockEnable(true);方法开启允许位置模拟\n
+	    16 	当前POI检索条件、行政区划检索条件下，无可用地理围栏。 建议调整检索条件后重新尝试，例如调整POI关键字，调整POI类型，调整周边搜区域，调整行政区关键字等\n
+	    17 	相同的地理围栏已经存在，无需重复添加\n
+	    18	飞行模式下关闭了WIFI开关，请关闭飞行模式或者打开WIFI开关\n
+	    19	没有检查到SIM卡，并且关闭了WIFI开关，请打开WIFI开关或者插入SIM卡\n
+	</string>
+
+	<string name="locDiagnose_title">定位诊断组件</string>
+	<string name="locDiagnose_desc">演示定位诊断组件</string>
+	<string name="locDiagnose_detail">
+		定位诊断组件，检查定位的必要条件，并给出建议。\n
+		定位诊断组件代码已上传到示例中心，git地址：https://github.com/amap-demo/android-location-diagnose.git
+	</string>
+	<string name = "startDiagnose">开始诊断</string>
+</resources>
